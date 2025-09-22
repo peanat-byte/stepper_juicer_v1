@@ -799,6 +799,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1598,6 +1705,113 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2882,18 +3096,6 @@
 		(uuid "f4c5aaa8-067d-4796-a286-ab186cfd9e7c")
 	)
 	(junction
-		(at 181.61 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00900365-392d-42b6-b77e-8fa1f533f829")
-	)
-	(junction
-		(at 185.42 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "016afd84-bdd6-4781-af37-de3504d1bf65")
-	)
-	(junction
 		(at 86.36 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2916,12 +3118,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1474ee61-7dca-4b4f-a131-626c7b86efd3")
-	)
-	(junction
-		(at 181.61 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16d15d27-7600-4a8e-904b-9249a0e47921")
 	)
 	(junction
 		(at 246.38 250.19)
@@ -2996,12 +3192,6 @@
 		(uuid "571981f1-32e0-4bd4-bc65-6a494579669d")
 	)
 	(junction
-		(at 181.61 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "582b77a3-4b77-49a1-ae81-f938b039da33")
-	)
-	(junction
 		(at 223.52 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3062,12 +3252,6 @@
 		(uuid "95acc105-bfc2-47c5-a6f0-b24d875895ee")
 	)
 	(junction
-		(at 185.42 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "977b1c72-737b-49a3-8b62-4f8959c54dfc")
-	)
-	(junction
 		(at 200.66 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3086,12 +3270,6 @@
 		(uuid "a82e8df0-5966-4887-b6ef-c2d4e4f72ac5")
 	)
 	(junction
-		(at 185.42 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acb2e982-af1a-41e7-8849-6f2f5ef599cf")
-	)
-	(junction
 		(at 246.38 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3108,18 +3286,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5fc29bf-e51a-4bf8-b38c-f7ac0a8ecf00")
-	)
-	(junction
-		(at 181.61 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c97c1a4e-4fa9-4d52-9472-1881335aa0b4")
-	)
-	(junction
-		(at 185.42 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf7947b0-b30f-432e-8902-9bd5c90e6d5a")
 	)
 	(junction
 		(at 80.01 142.24)
@@ -3180,6 +3346,14 @@
 		(uuid "0badb400-1c26-4f30-a8c3-0a86d6329531")
 	)
 	(no_connect
+		(at 228.6 29.21)
+		(uuid "15e0d70c-3bdb-4a69-a214-7592b5ba369d")
+	)
+	(no_connect
+		(at 228.6 44.45)
+		(uuid "21aa4fb3-ddec-4b23-ad2d-b51788e849ac")
+	)
+	(no_connect
 		(at 43.18 163.83)
 		(uuid "6b75aca5-d90b-4616-8052-3db968fe549b")
 	)
@@ -3190,6 +3364,10 @@
 	(no_connect
 		(at 284.48 171.45)
 		(uuid "a06ed680-fdbb-4169-8a68-699725fe719f")
+	)
+	(no_connect
+		(at 228.6 36.83)
+		(uuid "e7fe04b5-3173-49c8-aee0-aeca591e024c")
 	)
 	(no_connect
 		(at 57.15 34.29)
@@ -3367,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 68.58) (xy 177.8 67.31)
+			(xy 181.61 68.58) (xy 181.61 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3384,16 +3562,6 @@
 			(type default)
 		)
 		(uuid "12a0b51e-4c91-4b92-af3f-a7d3589db29e")
-	)
-	(wire
-		(pts
-			(xy 181.61 130.81) (xy 185.42 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b1adb5-b6d7-464a-a10e-6463d9a680a4")
 	)
 	(wire
 		(pts
@@ -3497,23 +3665,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac6600d-5db7-48fd-9e52-54a5b4e2b772")
-	)
-	(wire
-		(pts
-			(xy 185.42 67.31) (xy 200.66 67.31)
+			(xy 181.61 67.31) (xy 200.66 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b21070c-62fd-4680-900f-ba9d1f693334")
+	)
+	(wire
+		(pts
+			(xy 284.48 39.37) (xy 290.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3ed142-bed8-4b22-8654-b65dc6a17c08")
 	)
 	(wire
 		(pts
@@ -3537,26 +3705,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 77.47) (xy 181.61 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2a9254-1fb1-46fe-aad6-ffd93b621216")
-	)
-	(wire
-		(pts
-			(xy 181.61 237.49) (xy 185.42 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db7c952-27a7-472f-b8aa-c53be858718b")
-	)
-	(wire
-		(pts
 			(xy 190.5 190.5) (xy 189.23 190.5)
 		)
 		(stroke
@@ -3577,17 +3725,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 184.15) (xy 177.8 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eeda8c0-35a1-450f-917f-03577d3e669c")
-	)
-	(wire
-		(pts
-			(xy 177.8 228.6) (xy 177.8 227.33)
+			(xy 181.61 228.6) (xy 181.61 227.33)
 		)
 		(stroke
 			(width 0)
@@ -3604,16 +3742,6 @@
 			(type default)
 		)
 		(uuid "21b848a5-22d8-4ef3-b5aa-8eeee4c06b05")
-	)
-	(wire
-		(pts
-			(xy 185.42 227.33) (xy 185.42 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229b219e-6b53-480b-a9c1-40848053a104")
 	)
 	(wire
 		(pts
@@ -3687,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 184.15) (xy 181.61 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2900df96-2412-4e5e-90d2-e27d007e1241")
-	)
-	(wire
-		(pts
 			(xy 182.88 195.58) (xy 190.5 195.58)
 		)
 		(stroke
@@ -3704,16 +3822,6 @@
 			(type default)
 		)
 		(uuid "2943b176-b023-4882-a467-76b9beb39cc5")
-	)
-	(wire
-		(pts
-			(xy 185.42 173.99) (xy 200.66 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c9b9e56-5da0-48b4-ad72-6936bd968260")
 	)
 	(wire
 		(pts
@@ -3797,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 132.08) (xy 181.61 130.81)
+			(xy 181.61 129.54) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +3955,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 238.76) (xy 181.61 237.49)
+			(xy 181.61 236.22) (xy 181.61 237.49)
 		)
 		(stroke
 			(width 0)
@@ -3937,7 +4045,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 120.65) (xy 185.42 120.65)
+			(xy 181.61 120.65) (xy 200.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4047,6 +4155,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 35.56) (xy 270.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51aa151e-0bb2-479a-884c-b42fd9986259")
+	)
+	(wire
+		(pts
 			(xy 237.49 203.2) (xy 238.76 203.2)
 		)
 		(stroke
@@ -4117,16 +4235,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 130.81) (xy 181.61 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d78c3d5-5cc8-4d13-825e-f44a507b2ebc")
-	)
-	(wire
-		(pts
 			(xy 246.38 143.51) (xy 246.38 144.78)
 		)
 		(stroke
@@ -4187,6 +4295,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 36.83) (xy 284.48 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64064928-594d-4ac0-b305-2a18cf4e494d")
+	)
+	(wire
+		(pts
 			(xy 246.38 90.17) (xy 246.38 91.44)
 		)
 		(stroke
@@ -4217,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 185.42) (xy 181.61 184.15)
+			(xy 181.61 182.88) (xy 181.61 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4274,16 +4392,6 @@
 			(type default)
 		)
 		(uuid "6d79ca37-2bb0-4f50-ba43-88d5a23c3d40")
-	)
-	(wire
-		(pts
-			(xy 185.42 237.49) (xy 185.42 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fa0110c-bde8-407d-9657-dd935e463b0b")
 	)
 	(wire
 		(pts
@@ -4347,16 +4455,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 130.81) (xy 177.8 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d4fd9c-0a5e-43a0-a1b8-52b08403b574")
-	)
-	(wire
-		(pts
 			(xy 246.38 184.15) (xy 246.38 185.42)
 		)
 		(stroke
@@ -4364,6 +4462,16 @@
 			(type default)
 		)
 		(uuid "73e597d2-b7bf-42fd-bdb1-a203c80ec942")
+	)
+	(wire
+		(pts
+			(xy 306.07 36.83) (xy 306.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f26a40-0b36-4ab4-b0a1-c5868154fc51")
 	)
 	(wire
 		(pts
@@ -4437,13 +4545,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 184.15) (xy 185.42 182.88)
+			(xy 264.16 36.83) (xy 264.16 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d91ed08-1285-4b43-933d-9c53986aa37c")
+		(uuid "7edb95c5-2313-47e5-9d7e-aa0b2c831dfe")
 	)
 	(wire
 		(pts
@@ -4457,17 +4565,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 237.49) (xy 177.8 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8149963d-b877-4d94-a828-b8258ef3197f")
-	)
-	(wire
-		(pts
-			(xy 177.8 175.26) (xy 177.8 173.99)
+			(xy 181.61 175.26) (xy 181.61 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4484,16 +4582,6 @@
 			(type default)
 		)
 		(uuid "83d49351-eee9-4fb5-83a1-468ad25bbea3")
-	)
-	(wire
-		(pts
-			(xy 177.8 67.31) (xy 185.42 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85beb81b-56a3-4cc8-ae71-1be7bd86a2ee")
 	)
 	(wire
 		(pts
@@ -4517,17 +4605,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 67.31) (xy 185.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b0c5668-66d7-49f8-882a-178583d79e40")
-	)
-	(wire
-		(pts
-			(xy 177.8 173.99) (xy 185.42 173.99)
+			(xy 181.61 173.99) (xy 200.66 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 181.61 77.47)
+			(xy 181.61 76.2) (xy 181.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4604,16 +4682,6 @@
 			(type default)
 		)
 		(uuid "90c2fc97-8a30-44f9-9133-6bd2ebed5e0c")
-	)
-	(wire
-		(pts
-			(xy 177.8 77.47) (xy 177.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a20f95-a8ea-40fd-b649-c2d9e0da094b")
 	)
 	(wire
 		(pts
@@ -4707,16 +4775,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 237.49) (xy 181.61 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "999edd7e-7f42-4747-869a-d4fe350bd2b2")
-	)
-	(wire
-		(pts
 			(xy 109.22 43.18) (xy 123.19 43.18)
 		)
 		(stroke
@@ -4734,16 +4792,6 @@
 			(type default)
 		)
 		(uuid "9cd86e96-b2cb-4c49-bfc4-6a90db1d7239")
-	)
-	(wire
-		(pts
-			(xy 185.42 130.81) (xy 185.42 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dcc672c-9169-4ece-a472-41993ed01c52")
 	)
 	(wire
 		(pts
@@ -4907,16 +4955,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 185.42 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1760f45-fddc-42b2-9a15-ca468149bd08")
-	)
-	(wire
-		(pts
 			(xy 43.18 153.67) (xy 57.15 153.67)
 		)
 		(stroke
@@ -4937,7 +4975,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 121.92) (xy 177.8 120.65)
+			(xy 181.61 121.92) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4977,6 +5015,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 35.56) (xy 290.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9662bee-48ec-4364-b424-34fbae594316")
+	)
+	(wire
+		(pts
 			(xy 228.6 143.51) (xy 228.6 147.32)
 		)
 		(stroke
@@ -5007,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 227.33) (xy 200.66 227.33)
+			(xy 181.61 227.33) (xy 200.66 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5107,13 +5155,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 200.66 120.65)
+			(xy 264.16 39.37) (xy 270.51 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfee1714-a455-48cc-8423-0d1903884a36")
+		(uuid "ce673eae-8139-4953-a384-17bde6929678")
 	)
 	(wire
 		(pts
@@ -5177,16 +5225,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 184.15) (xy 185.42 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d14151-b7cd-49df-98a9-a643b5189182")
-	)
-	(wire
-		(pts
 			(xy 43.18 161.29) (xy 63.5 161.29)
 		)
 		(stroke
@@ -5224,16 +5262,6 @@
 			(type default)
 		)
 		(uuid "dfce035a-87c4-40e7-9d5e-17116b422cb3")
-	)
-	(wire
-		(pts
-			(xy 185.42 173.99) (xy 185.42 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdf82b7-b339-45f8-969b-23baee189fcd")
 	)
 	(wire
 		(pts
@@ -5294,16 +5322,6 @@
 			(type default)
 		)
 		(uuid "e60001d1-5343-4d57-98e1-d0cd5c062a4a")
-	)
-	(wire
-		(pts
-			(xy 177.8 227.33) (xy 185.42 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6cb22d3-1513-42cf-8a3c-c92551cb66d6")
 	)
 	(wire
 		(pts
@@ -5404,16 +5422,6 @@
 			(type default)
 		)
 		(uuid "eec34e3d-cc53-4572-9258-5999583fe95c")
-	)
-	(wire
-		(pts
-			(xy 185.42 77.47) (xy 185.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eedaeb8d-533b-4685-9496-ebb8c23b55a6")
 	)
 	(wire
 		(pts
@@ -5908,7 +5916,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 179.07 0)
+		(at 181.61 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5916,7 +5924,7 @@
 		(dnp no)
 		(uuid "03e22a80-b58a-4837-bbdb-04593281e925")
 		(property "Reference" "C7"
-			(at 165.735 177.8 0)
+			(at 169.545 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +5933,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 165.735 179.705 0)
+			(at 169.545 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5942,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 178.7652 182.88 0)
+			(at 182.5752 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +5951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 179.07 0)
+			(at 181.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +5960,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 179.07 0)
+			(at 181.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +5969,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
-			(at 177.8 179.07 0)
+			(at 181.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6064,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 238.76 0)
+		(at 181.61 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6064,7 +6072,7 @@
 		(dnp no)
 		(uuid "07c5f159-9fa6-484f-b57e-3fce4c032eaa")
 		(property "Reference" "#PWR028"
-			(at 181.61 245.11 0)
+			(at 181.61 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +6082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.705 242.57 0)
+			(at 179.705 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +6091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 238.76 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 238.76 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 238.76 0)
+			(at 181.61 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,16 +6133,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 185.42 72.39 0)
+		(lib_id "Connector:TestPoint")
+		(at 306.07 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "087b7b09-af59-41ac-846a-b0c0230be3f1")
-		(property "Reference" "C11"
-			(at 187.96 71.12 0)
+		(uuid "0af43cee-5cfb-4da4-abc5-8621794b5270")
+		(property "Reference" "TP3"
+			(at 302.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,8 +6150,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 50V"
-			(at 187.96 73.025 0)
+		(property "Value" "TestPoint"
+			(at 302.26 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,8 +6159,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.3852 76.2 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 311.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 72.39 0)
+			(at 311.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,17 +6177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
-			(at 185.42 72.39 0)
+		(property "Description" "test point"
+			(at 306.07 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,15 +6187,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "62ed4c97-938d-4ce9-b965-9a3d39a9a88d")
-		)
-		(pin "2"
-			(uuid "33c4d060-896b-423c-ba33-9cf6858609b4")
+			(uuid "0d90dbf8-58dc-4027-a14e-1574a7945189")
 		)
 		(instances
 			(project "stepper_juicer_v1"
 				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
-					(reference "C11")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6267,6 +6263,72 @@
 			(project "stepper_juicer_v1"
 				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fa5840d-240b-4ba2-8b74-16ee09787ed8")
+		(property "Reference" "TP1"
+			(at 256.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.54 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 269.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54bc8194-00eb-448b-8874-562074088164")
+		)
+		(instances
+			(project ""
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6821,6 +6883,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1db77a2f-febc-44c6-af71-e5a0930d218a")
+		(property "Reference" "H3"
+			(at 235.585 39.4857 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3 Pad"
+			(at 235.585 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac359f1-43ad-4bdc-91e6-7e02cac2de09")
+		)
+		(instances
+			(project "stepper_juicer_v1"
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 270.51 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27181bd2-f96a-4cb7-9b2b-71615d81e3df")
+		(property "Reference" "#PWR02"
+			(at 270.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 267.335 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 270.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e90a49a3-513c-408f-83c1-4be3d7ace56d")
+		)
+		(instances
+			(project "stepper_juicer_v1"
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 90.17 0)
 		(unit 1)
@@ -6847,7 +7043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.4852 93.98 0)
 			(effects
 				(font
@@ -6874,7 +7070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRJ21BC72A105KE11L/5321010"
 			(at 223.52 90.17 0)
 			(effects
 				(font
@@ -7008,7 +7204,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 132.08 0)
+		(at 181.61 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7016,7 +7212,7 @@
 		(dnp no)
 		(uuid "2f68902e-32ac-4760-9391-523ec8e2daa0")
 		(property "Reference" "#PWR07"
-			(at 181.61 138.43 0)
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.705 135.89 0)
+			(at 179.705 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 132.08 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 132.08 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,7 +7251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 132.08 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.504 185.166 90)
 			(effects
 				(font
@@ -7133,7 +7329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-P06J7R5V/9812041"
+		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-3BQF8R2V/5647424"
 			(at 223.52 185.42 0)
 			(effects
 				(font
@@ -7603,6 +7799,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 284.48 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40d5aad7-1d2e-4b34-8937-d6b3b07019df")
+		(property "Reference" "TP2"
+			(at 277.495 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 277.495 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 289.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d450c40-06c5-443f-85f5-207b81168102")
+		)
+		(instances
+			(project "stepper_juicer_v1"
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 68.58 34.29 0)
 		(unit 1)
@@ -7965,7 +8227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.504 78.486 90)
 			(effects
 				(font
@@ -7995,7 +8257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-P06J7R5V/9812041"
+		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-3BQF8R2V/5647424"
 			(at 223.52 78.74 0)
 			(effects
 				(font
@@ -8014,6 +8276,70 @@
 			(project "stepper_juicer_v1"
 				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "46143d4c-083a-443e-a017-b3e2b07f84cd")
+		(property "Reference" "H1"
+			(at 235.585 24.2457 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3 Pad"
+			(at 235.585 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 228.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85889219-6c12-48fe-b7a7-f3d6f14f8ae1")
+		)
+		(instances
+			(project ""
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8198,6 +8524,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 290.83 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a555584-c695-42cc-ad09-e334ff0f4b89")
+		(property "Reference" "#PWR033"
+			(at 290.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 287.655 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 290.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13bb0101-7752-453a-8855-f0fc58934bdb")
+		)
+		(instances
+			(project "stepper_juicer_v1"
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bf57520-9fd1-40cb-94b9-d96bab503289")
+		(property "Reference" "H2"
+			(at 235.585 31.8657 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3 Pad"
+			(at 235.585 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9920a435-deaa-4356-b077-177f4827fb9b")
+		)
+		(instances
+			(project "stepper_juicer_v1"
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 69.85 167.64 270)
 		(unit 1)
@@ -8375,7 +8835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.4852 147.32 0)
 			(effects
 				(font
@@ -8402,7 +8862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRJ21BC72A105KE11L/5321010"
 			(at 223.52 143.51 0)
 			(effects
 				(font
@@ -8756,6 +9216,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 306.07 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "664b419b-97fe-42e8-be9d-22cc49a6d443")
+		(property "Reference" "#PWR034"
+			(at 306.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.165 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "733cf3e0-b692-4403-836a-e4041bc4b639")
+		)
+		(instances
+			(project "stepper_juicer_v1"
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 243.84 243.84 0)
 		(unit 1)
@@ -8873,7 +9403,7 @@
 		(dnp no)
 		(uuid "69bf8266-7ae7-4e90-8d22-7b46e8484b17")
 		(property "Reference" "D6"
-			(at 213.36 179.07 90)
+			(at 209.55 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,8 +9411,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100V 2A"
-			(at 213.36 177.165 90)
+		(property "Value" "100V 200mA"
+			(at 209.55 177.165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +9420,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 223.52 177.8 0)
 			(effects
 				(font
@@ -8917,7 +9447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PMEG10020ELRX/5436250"
+		(property "Link" "https://www.digikey.ca/en/products/detail/onsemi/NSR02100HT1G/6684816"
 			(at 223.52 177.8 90)
 			(effects
 				(font
@@ -9871,7 +10401,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 72.39 0)
+		(at 181.61 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9879,7 +10409,7 @@
 		(dnp no)
 		(uuid "8cc3133d-6b65-466b-9973-71de2114ba2f")
 		(property "Reference" "C10"
-			(at 165.735 71.12 0)
+			(at 169.545 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +10418,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 165.735 73.025 0)
+			(at 169.545 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +10427,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 178.7652 76.2 0)
+			(at 182.5752 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +10436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 72.39 0)
+			(at 181.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +10445,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 72.39 0)
+			(at 181.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +10454,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
-			(at 177.8 72.39 0)
+			(at 181.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10479,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 125.73 0)
+		(at 181.61 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9957,7 +10487,7 @@
 		(dnp no)
 		(uuid "8d28e7c0-9788-4d9e-ae45-48999e783126")
 		(property "Reference" "C3"
-			(at 165.735 124.46 0)
+			(at 169.545 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +10496,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 165.735 126.365 0)
+			(at 169.545 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +10505,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 178.7652 129.54 0)
+			(at 182.5752 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +10514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 125.73 0)
+			(at 181.61 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +10523,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 125.73 0)
+			(at 181.61 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10002,7 +10532,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
-			(at 177.8 125.73 0)
+			(at 181.61 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 185.42 0)
+		(at 181.61 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10183,7 +10713,7 @@
 		(dnp no)
 		(uuid "91d6e581-2196-441f-aaf5-fb4353c26191")
 		(property "Reference" "#PWR018"
-			(at 181.61 191.77 0)
+			(at 181.61 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.705 189.23 0)
+			(at 179.705 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 185.42 0)
+			(at 181.61 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,7 +10742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 185.42 0)
+			(at 181.61 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +10752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 185.42 0)
+			(at 181.61 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +10864,7 @@
 		(dnp no)
 		(uuid "99904144-6d6c-425e-b055-146dc6f48770")
 		(property "Reference" "D7"
-			(at 213.36 72.39 90)
+			(at 209.55 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,8 +10872,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100V 2A"
-			(at 213.36 70.485 90)
+		(property "Value" "100V 200mA"
+			(at 209.55 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10881,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 223.52 71.12 0)
 			(effects
 				(font
@@ -10378,7 +10908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PMEG10020ELRX/5436250"
+		(property "Link" "https://www.digikey.ca/en/products/detail/onsemi/NSR02100HT1G/6684816"
 			(at 223.52 71.12 90)
 			(effects
 				(font
@@ -10429,7 +10959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.504 131.826 90)
 			(effects
 				(font
@@ -10459,7 +10989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-P06J7R5V/9812041"
+		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-3BQF8R2V/5647424"
 			(at 223.52 132.08 0)
 			(effects
 				(font
@@ -10485,7 +11015,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 78.74 0)
+		(at 181.61 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10493,7 +11023,7 @@
 		(dnp no)
 		(uuid "a0cc5cfa-3972-43e9-97e2-166af2241567")
 		(property "Reference" "#PWR023"
-			(at 181.61 85.09 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +11033,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.705 82.55 0)
+			(at 179.705 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +11042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 78.74 0)
+			(at 181.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +11052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 78.74 0)
+			(at 181.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +11062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 78.74 0)
+			(at 181.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,84 +11078,6 @@
 			(project "stepper_juicer_v1"
 				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1d15669-1d73-464b-a03e-e3f555dfec41")
-		(property "Reference" "C1"
-			(at 187.96 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF 50V"
-			(at 187.96 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.3852 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
-			(at 185.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "191deceb-31b1-4ab5-a464-46832f638df3")
-		)
-		(pin "2"
-			(uuid "43c62ff8-ba43-4e83-bc80-985ea2902a41")
-		)
-		(instances
-			(project ""
-				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10707,84 +11159,6 @@
 			(project "stepper_juicer_v1"
 				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab5fd4d7-6061-4d49-96a1-027a194de20c")
-		(property "Reference" "C8"
-			(at 187.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF 50V"
-			(at 187.96 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.3852 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
-			(at 185.42 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec5fe72f-bf69-46ad-84a3-8d6001c62ac1")
-		)
-		(pin "2"
-			(uuid "e837d1b5-8d92-4a9b-a84b-7dc8fa6d9fcc")
-		)
-		(instances
-			(project "stepper_juicer_v1"
-				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11092,7 +11466,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 232.41 0)
+		(at 181.61 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11100,7 +11474,7 @@
 		(dnp no)
 		(uuid "ba6da338-5f6b-43ee-8893-0f0f01c430ca")
 		(property "Reference" "C13"
-			(at 165.735 231.14 0)
+			(at 169.545 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11109,7 +11483,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 165.735 233.045 0)
+			(at 169.545 233.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,7 +11492,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 178.7652 236.22 0)
+			(at 182.5752 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +11501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 232.41 0)
+			(at 181.61 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11510,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 232.41 0)
+			(at 181.61 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +11519,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
-			(at 177.8 232.41 0)
+			(at 181.61 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,7 +11894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.4852 254 0)
 			(effects
 				(font
@@ -11547,7 +11921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRJ21BC72A105KE11L/5321010"
 			(at 223.52 250.19 0)
 			(effects
 				(font
@@ -11900,7 +12274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.504 238.506 90)
 			(effects
 				(font
@@ -11930,7 +12304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-P06J7R5V/9812041"
+		(property "Link" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-3BQF8R2V/5647424"
 			(at 223.52 238.76 0)
 			(effects
 				(font
@@ -12240,84 +12614,6 @@
 			(project ""
 				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e882d473-9212-4f7c-9e01-20e518db42e9")
-		(property "Reference" "C14"
-			(at 187.96 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF 50V"
-			(at 187.96 233.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.3852 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
-			(at 185.42 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3bf3a51-60b9-414e-9e3f-6305668babb4")
-		)
-		(pin "2"
-			(uuid "ee9e2bae-f541-4a7d-aed7-30fc945323a8")
-		)
-		(instances
-			(project "stepper_juicer_v1"
-				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12662,7 +12958,7 @@
 		(dnp no)
 		(uuid "f0bbf9f7-90d6-4be5-9362-45bbfd9d616b")
 		(property "Reference" "D8"
-			(at 213.36 232.41 90)
+			(at 209.55 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,8 +12966,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100V 2A"
-			(at 213.36 230.505 90)
+		(property "Value" "100V 200mA"
+			(at 209.55 230.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12679,7 +12975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 223.52 231.14 0)
 			(effects
 				(font
@@ -12706,7 +13002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PMEG10020ELRX/5436250"
+		(property "Link" "https://www.digikey.ca/en/products/detail/onsemi/NSR02100HT1G/6684816"
 			(at 223.52 231.14 90)
 			(effects
 				(font
@@ -12888,7 +13184,7 @@
 		(dnp no)
 		(uuid "f8ec858f-76ff-48af-a5e0-e14e75b603c9")
 		(property "Reference" "D5"
-			(at 213.36 125.73 90)
+			(at 209.55 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,8 +13192,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100V 2A"
-			(at 213.36 123.825 90)
+		(property "Value" "100V 200mA"
+			(at 209.55 123.825 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12905,7 +13201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 223.52 124.46 0)
 			(effects
 				(font
@@ -12932,7 +13228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PMEG10020ELRX/5436250"
+		(property "Link" "https://www.digikey.ca/en/products/detail/onsemi/NSR02100HT1G/6684816"
 			(at 223.52 124.46 90)
 			(effects
 				(font
@@ -13250,7 +13546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.4852 200.66 0)
 			(effects
 				(font
@@ -13277,7 +13573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R61H105KE05D/13531808"
+		(property "Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRJ21BC72A105KE11L/5321010"
 			(at 223.52 196.85 0)
 			(effects
 				(font

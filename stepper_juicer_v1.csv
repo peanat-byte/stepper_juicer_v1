@@ -1,0 +1,21 @@
+Reference,Qty,Value,Link
+C2,1,470uF 50V,https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ECA-1HM471B/268485
+"C3,C4,C7,C10,C13",5,10uF 50V,https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316
+C5,1,1uF 100V,https://www.digikey.ca/en/products/detail/murata-electronics/GRJ21BC72A105KE11L/5321010
+"C6,C9,C12,C15",4,1uF 50V,https://www.digikey.ca/en/products/detail/murata-electronics/GRJ21BC72A105KE11L/5321010
+"D1,D2,D3,D4",4,30V 200mA,https://www.digikey.ca/en/products/detail/onsemi/RB521S30T1G/920292
+"D5,D6,D7,D8",4,100V 200mA,https://www.digikey.ca/en/products/detail/onsemi/NSR02100HT1G/6684816
+D9,1,LED,https://www.digikey.ca/en/products/detail/liteon/LTST-C190GKT/269230
+"H1,H2,H3",3,M3 Pad,
+"J1,J4",2,Conn_01x06_Pin,https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B6B-PH-K-S/926615
+J2,1,Barrel_Jack_Switch,https://www.digikey.ca/en/products/detail/tensility-international-corp/54-00130/9685439
+J3,1,Conn_01x04_Pin,https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047
+"Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8",8,NMOS,https://www.digikey.ca/en/products/detail/infineon-technologies/BSZ340N08NS3GATMA1/1936396
+"R1,R2,R3,R8",4,2k0,https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0603FTD2K00/2240114
+"R4,R5,R6,R7",4,1k0,https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0603FTD1K00/2240106
+"R9,R12,R15,R18",4,8.2R,https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-3BQF8R2V/5647424
+"R10,R11,R13,R14,R16,R17,R19,R20",8,4.7R,https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-P06J4R7V/9812036
+R21,1,8k2,https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-3EKF8201V/1746448
+"TP1,TP2,TP3",3,TestPoint,
+"U1,U2,U4,U5",4,NCP51513,https://www.digikey.ca/en/products/detail/onsemi/NCP51513ABMNTWG/16528620
+U3,1,ZXTR2012Z,https://www.digikey.ca/en/products/detail/diodes-incorporated/ZXTR2012Z-7/4747713
