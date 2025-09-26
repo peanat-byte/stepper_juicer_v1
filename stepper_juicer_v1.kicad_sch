@@ -227,7 +227,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -236,14 +236,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
+			(property "Value" "Conn_01x05_Pin"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -269,7 +269,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -304,7 +304,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 2.667)
 					(end 0 2.413)
@@ -347,6 +358,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -398,7 +421,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -416,7 +439,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -434,7 +457,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -452,7 +475,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -462,6 +485,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3086,7 +3127,7 @@
 	)
 	(text "Populating this connector and \nunpoplating the entire resistor\ndivider chunk allows us to drive \na 2-phase stepper with custom\nPWM signals instead."
 		(exclude_from_sim no)
-		(at 83.82 95.25 0)
+		(at 83.82 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3515,16 +3556,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 107.95) (xy 96.52 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e5c1a84-3e6d-4a5e-bb2d-97791c087673")
-	)
-	(wire
-		(pts
 			(xy 228.6 147.32) (xy 223.52 147.32)
 		)
 		(stroke
@@ -3645,6 +3676,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 110.49) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197f6872-8e21-42d1-93d1-c0b567b57651")
+	)
+	(wire
+		(pts
 			(xy 198.12 265.43) (xy 200.66 265.43)
 		)
 		(stroke
@@ -3702,6 +3743,16 @@
 			(type default)
 		)
 		(uuid "1c36958d-aaf6-4aca-8506-507fe381ed7d")
+	)
+	(wire
+		(pts
+			(xy 96.52 105.41) (xy 109.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf21250-9eb9-44d9-938c-863e0d4bb16a")
 	)
 	(wire
 		(pts
@@ -4092,16 +4143,6 @@
 			(type default)
 		)
 		(uuid "4922d62e-2750-47ac-a6a5-95cd30e446df")
-	)
-	(wire
-		(pts
-			(xy 104.14 113.03) (xy 96.52 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b34c38-7744-4df7-a412-9939d9e171de")
 	)
 	(wire
 		(pts
@@ -4545,6 +4586,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 102.87) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d693a1c-5274-47fb-8e93-e16e55725d39")
+	)
+	(wire
+		(pts
 			(xy 264.16 36.83) (xy 264.16 39.37)
 		)
 		(stroke
@@ -4925,6 +4976,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac597559-1f5b-432b-a063-7d57febfbf0d")
+	)
+	(wire
+		(pts
 			(xy 95.25 142.24) (xy 95.25 144.78)
 		)
 		(stroke
@@ -5005,13 +5066,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 105.41) (xy 96.52 105.41)
+			(xy 99.06 102.87) (xy 96.52 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b937ae45-936a-4476-a1d9-90ced53f93a7")
+		(uuid "b8031ea0-12b0-4538-8542-1b70c7b33f53")
 	)
 	(wire
 		(pts
@@ -5232,6 +5293,16 @@
 			(type default)
 		)
 		(uuid "d846c0d4-25dc-49fd-a409-04f617d68c67")
+	)
+	(wire
+		(pts
+			(xy 96.52 113.03) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db26b929-7e24-4225-bb70-6afa52d3de74")
 	)
 	(wire
 		(pts
@@ -5475,16 +5546,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 110.49) (xy 96.52 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f60f74f0-1a2d-44eb-b14e-c58ab898d20b")
-	)
-	(wire
-		(pts
 			(xy 80.01 187.96) (xy 80.01 186.69)
 		)
 		(stroke
@@ -5644,7 +5705,7 @@
 		(uuid "3d7f05cf-16a6-41bc-8790-afa6a937b4f1")
 	)
 	(label "B_IN+"
-		(at 104.14 110.49 180)
+		(at 109.22 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5714,7 +5775,7 @@
 		(uuid "7a4771c3-461c-448c-a98d-737a0b3570d6")
 	)
 	(label "B_IN-"
-		(at 104.14 113.03 180)
+		(at 109.22 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,7 +5825,7 @@
 		(uuid "a4fb49c0-0288-41b7-a140-e88930b1e3d9")
 	)
 	(label "A_IN-"
-		(at 104.14 107.95 180)
+		(at 109.22 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5784,7 +5845,7 @@
 		(uuid "d7417138-db7f-48ca-b6c6-b30ef68e667a")
 	)
 	(label "A_IN+"
-		(at 104.14 105.41 180)
+		(at 109.22 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7717,7 +7778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 91.44 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7726,7 +7787,7 @@
 		(dnp yes)
 		(uuid "3efd6540-bacf-499d-b18e-be67542baa22")
 		(property "Reference" "J3"
-			(at 92.075 115.57 0)
+			(at 90.805 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,14 +7795,14 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 98.425 117.475 0)
+			(at 97.155 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -7759,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -7788,6 +7849,9 @@
 		)
 		(pin "1"
 			(uuid "b7f299e2-69b4-4398-bf2c-e8e8b166d8b7")
+		)
+		(pin "5"
+			(uuid "236805fc-760e-4379-95aa-508474410157")
 		)
 		(instances
 			(project ""
@@ -11159,6 +11223,76 @@
 			(project "stepper_juicer_v1"
 				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac6cf03a-455a-4a70-83ad-8b8a12fa26ca")
+		(property "Reference" "#PWR035"
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.155 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18f06d7d-4ada-4eab-b177-1bb270b2b9ad")
+		)
+		(instances
+			(project "stepper_juicer_v1"
+				(path "/21223b99-bae8-49fe-9057-f65e2fd7129d"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
